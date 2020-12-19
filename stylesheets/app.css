@@ -76,6 +76,10 @@
     padding-left: 27px;
 }
 
+.hot-item-title {
+    color: #D35266;
+}
+
 .box-container {
     display: flex;
 }
@@ -111,10 +115,21 @@
     padding: 13px;
     border: 1px solid #888888;
     border-radius: 3px;
-    height: 350px;
-    margin: 4px;
-    width: 223px;
     background-color: white;
+    margin-bottom: 15px;
+}
+
+.item-title {
+    color: #D35266;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.card-prices {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    color: #D35266;
 }
 
 .foot-cont {
@@ -155,6 +170,10 @@
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    
+}
+
 @media (max-width: 425px) {
     .navigation-item {
         display: none;
@@ -184,6 +203,10 @@
     }
     
     .hot-ads-sec {
+        display: none;
+    }
+
+    .categories-navi {
         display: none;
     }
 }
