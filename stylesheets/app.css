@@ -1,2 +1,189 @@
 /* stylelint-disable indentation */
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navigation-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #383838;
+    padding: 7px;
+}
+
+.navigation-item {
+    color: white;
+    font-size: 12px;
+}
+
+.nav-logo {
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.nav-home {
+    color: #D35266;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.search-sec {
+    height: 400px;
+    background-color: #D35266;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: GothamPro, cursive;
+}
+
+.big-logo {
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.search-sec-input {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    border: none;
+    padding: 5px;
+}
+
+.search-btn {
+    background-color: white;
+    color: #888888;
+    padding: 5px;
+    font-weight: 700;
+    margin-left: 1px;
+}
+
+.hot-ads-sec {
+    margin: 30px;
+}
+
+.ads-title {
+    margin: auto;
+    font-size: 21px;
+    color: #888888;
+    padding-left: 27px;
+}
+
+.box-container {
+    display: flex;
+}
+
+.box-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box-item-1 {
+    flex: 1;
+    padding: 27px;
+}
+
+.box-item-2 {
+    flex: 1;
+    padding: 27px;
+}
+
+.items-container {
+    background-color: #e0e4e3;
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+    padding: 50px;
+}
+
+.coin-pics {
+    max-width: 100%;
+    height: auto;
+}
+
+.coin-cont {
+    padding: 13px;
+    border: 1px solid #888888;
+    border-radius: 3px;
+    height: 350px;
+    margin: 4px;
+    width: 223px;
+    background-color: white;
+}
+
+.foot-cont {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.brand-ex {
+    flex: 2;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.foot-logo {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+}
+
+.categories-navi {
+    flex: 1;
+}
+
+.categ-foot-title {
+    font-size: revert;
+    color: #D35266;
+    font-weight: 600;
+    border-bottom: 2px solid #D35266;
+    margin-right: 20px;
+}
+
+.categ-foot-list {
+    color: #888888;
+}
+.copyright-sec {
+    color: #888888;
+    margin: 5px;
+    text-align: center;
+}
+
+@media (max-width: 425px) {
+    .navigation-item {
+        display: none;
+    }
+
+    .nav-logo {
+        display: inline-block;
+    }
+
+    .fa-bars {
+        display: inline-block;
+        color: #D35266;
+        font-size: x-large;
+    }
+
+    .search-input {
+        border: none;
+        padding: 5px;
+    }
+
+    .search-btn {
+        background-color: white;
+        color: #888888;
+        padding: 5px;
+        font-weight: 700;
+        margin-left: 1px;
+    }
+    
+    .hot-ads-sec {
+        display: none;
+    }
+}

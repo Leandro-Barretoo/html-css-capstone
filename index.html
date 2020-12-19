@@ -6,154 +6,186 @@
     <title>HTML and CSS Capstone</title>
     <link rel="stylesheet" href="stylesheets/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
     <link rel="stylesheet" href="stylesheets/app.css">
+    <script src="https://kit.fontawesome.com/34e3d7fbeb.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container-fluid">
+    <div>
         <header>
-            <ul>
+            <ul class="navigation-sec">
                 <li>
-                    <a href="#">coinesco</a>
+                    <a class="navigation-item nav-logo" href="#">coinesco</a>
                 </li>
                 <li>
-                    <a href="#">HOME</a>
+                    <a class="navigation-item nav-home" href="#"><i class="fa fa-home"></i> HOME</a>
                 </li>
                 <li>
-                    <a href="#">COLLECTIONS</a>
+                    <a class="navigation-item" href="#">COLLECTIONS</a>
                 </li>
                 <li>
-                    <a href="#">PURCHASE LIST</a>
+                    <a class="navigation-item" href="#">PURCHASE LIST</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-bars"></i></a>
                 </li>
             </ul>
         </header>
         <main>
             <div class="search-sec">
-                <span>coinesco</span>
-                <p>Buying And Selling Couldn't be Simpler than this!</p>
-                <div class="search-sec-input"></div>
+                <span class="big-logo">coinesco</span>
+                <p class="big-slogan">Buying And Selling Couldn't be Simpler than this!</p>
+                <div class="search-sec-input">
+                    <input class="search-input" type="text" placeholder="What do you search for?">
+                    <span class="search-btn">Search</span>
+                </div>
             </div>
             <div class="hot-ads-sec">
-                <h2>HOT ADS</h2>
+                <h2 class="ads-title">HOT ADS</h2>
                 <div class="box-container">
                     <div class="box-item-1">
-                        <img src="" alt="">
+                        <img src="assets/img-18.JPG" alt="coin">
                     </div>
                     <div class="box-item-2">
-                        <h3></h3>
-                        <p></p>
-                        <button></button>
+                        <h3>10 Drachmes 1990, Greece</h3>
+                        <p>Used</p>
+                        <button>$2</button>
                     </div>
                 </div>
             </div>
             <div class="items-container">
-                <h3>Coins</h3>
-                <hr style="width: 98%;">
-                <div class="container-fluid">
+                <h3><i class="fa fa-coins"></i>  Coins</h3>
+                <hr style="width: 98%; border-top: 1px solid #888888;">
+                <div class="container">
                     <div class="row">
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-1.JPG" alt="coin">
+                            <div class="">
+                                <h3 class="">Medallion Elizabeth II 1977, England</h3>
+                                <p class="">Used</p>
+                                <button>$20</button>
                             </div>
                         </div>
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-2.JPG" alt="coin">
+                            <div class="">
+                                <h3 class="">Quarter Dollar 1999, United States</h3>
+                                <p class="">Used</p>
+                                <button>$4</button>
                             </div>
                         </div>
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-3.JPG" alt="coin">
+                            <div class="">
+                                <h3 class="">2 Francs 1968, Switzerland</h3>
+                                <p class="">Used</p>
+                                <button>$15</button>
                             </div>
                         </div>
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont card col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-4.JPG" alt="coin">
+                            <div class="">
+                                <h3 class="">100 Escudos 1990, Portugal</h3>
+                                <p class="">$25</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h3>Coins</h3>
-                <hr style="width: 98%;">
-                <div class="container-fluid">
+                <h3><i class="fas fa-coins"></i>  Coins</h3>
+                <hr style="width: 98%; border-top: 1px solid #888888;">
+                <div class="container">
                     <div class="row">
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-5.JPG" alt="coin">
+                            <div class="">
+                                <h3 class="">50 Rands 1984, South Africa</h3>
+                                <p class="">Used</p>
+                                <button>$15</button>
                             </div>
                         </div>
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-6.JPG" alt="coin">
+                            <div class="">
+                                <h3 class="">2 Kroner 1996, Denmark</h3>
+                                <p class="">Used</p>
+                                <button>$8</button>
                             </div>
                         </div>
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-7.JPG" alt="coin">
+                            <div class="">
+                                <h3 class="">1 Rand 1964, South Africa</h3>
+                                <p class="">Used</p>
+                                <button>$10</button>
                             </div>
                         </div>
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-8.JPG" alt="coin">
+                            <div class="">
+                                <h3 class="">500 Liras 1990, Italy</h3>
+                                <p class="">Used</p>
+                                <button>$20</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h3>Coins</h3>
-                <hr style="width: 98%;">
-                <div class="container-fluid">
+                <h3><i class="fas fa-coins"></i>  Coin Set</h3>
+                <hr style="width: 98%; border-top: 1px solid #888888;">
+                <div class="container">
                     <div class="row">
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-13.JPG" alt="coin set">
+                            <div class="">
+                                <h3 class="">New</p>
+                                <button>$70</button>
                             </div>
                         </div>
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-15.JPG" alt="coin set">
+                            <div class="">
+                                <h3 class="">San Marino Coin Set 2019, San Marino</h3>
+                                <p class="">New</p>
+                                <button>$50</button>
                             </div>
                         </div>
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-16.JPG" alt="coin set">
+                            <div class="">
+                                <h3 class="">Monaco Coin Set 2002, Monaco</h3>
+                                <p class="">New</p>
+                                <button>$300</button>
                             </div>
                         </div>
-                        <div class="card col-sm-6 col-md-3">
-                            <img class="card-img-top" src="" alt="">
-                            <div class="card-body">
-                                <h3 class="card-title"></h3>
-                                <p class="card-text"></p>
+                        <div class="coin-cont col-sm-6 col-md-3">
+                            <img class="coin-pics" src="assets/img-17.JPG" alt="coin set">
+                            <div class="">
+                                <h3 class="">Vatican Coin Set 2018, Vaticano</h3>
+                                <p class="">New</p>
+                                <button>$65</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </main>
         <footer>
-
+            <div class="foot-cont">
+                <div class="brand-ex">
+                    <span class="foot-logo">coinesco</span>
+                    <p>This online shop is directed to selling and buying coins and related items.</p>
+                </div>
+                <div class="categories-navi">
+                    <h2 class="categ-foot-title">CATEGORIES</h2>
+                    <ul class="categ-foot-list">
+                        <li>Coins #1</li>
+                        <li>Coins #2</li>
+                        <li>Coin Sets</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-sec">
+                <p>Copyright&copy; coinesco. All rights reserved. Design by Leandro Barreto</p>
+            </div>
         </footer>
     </div>
 </body>
