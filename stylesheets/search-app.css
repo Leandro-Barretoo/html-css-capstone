@@ -221,3 +221,41 @@
 .num-item2 {
     font-weight: 600;
 }
+
+.foot-cont {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.brand-ex {
+    flex: 2;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.foot-logo {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+}
+
+.categories-navi {
+    flex: 1;
+}
+
+.categ-foot-title {
+    font-size: revert;
+    color: #D35266;
+    font-weight: 600;
+    border-bottom: 2px solid #D35266;
+    margin-right: 20px;
+}
+
+.categ-foot-list {
+    color: #888888;
+}
+.copyright-sec {
+    color: #888888;
+    margin: 5px;
+    text-align: center;
+}
