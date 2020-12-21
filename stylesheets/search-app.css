@@ -1,0 +1,95 @@
+/* stylelint-disable indentation */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navigation-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #383838;
+    padding: 7px;
+}
+
+.navigation-item {
+    color: white;
+    font-size: 12px;
+}
+
+.nav-logo {
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.nav-home {
+    color: #D35266;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.search-sec {
+    height: 190px;
+    background-color: #D35266;
+    text-align: left;
+    color: white;
+    font-family: GothamPro, cursive;
+}
+
+.big-logo {
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    margin-left: 80px;
+}
+
+.big-slogan {
+    margin-left: 80px;
+}
+
+.search-sec-input {
+    display: flex;
+    justify-content: left;
+    margin-left: 80px;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    margin-left: 1px;
+}
+
+.search-btn {
+    background-color: white;
+    color: #888888;
+    padding: 10px;
+    font-weight: 700;
+    margin-left: 1px;
+}
+
+.results-container {
+    display: flex;
+    background-color: #e0e4e3;
+}
+
+.type-select {
+    padding: 30px;
+    flex: 1;
+    border-right: 1px solid #888888;
+}
+
+.type-item {
+    margin-top: 20px;
+}
+
+.select-title {
+    display: block;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+.results-select {
+    flex: 6;
+}
