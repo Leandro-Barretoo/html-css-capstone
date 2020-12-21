@@ -69,6 +69,14 @@
     margin-left: 1px;
 }
 
+.search-btn-1 {
+    background-color: #383838;
+    color: #888888;
+    padding: 10px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
 .results-container {
     display: flex;
     background-color: #e0e4e3;
@@ -92,4 +100,124 @@
 
 .results-select {
     flex: 6;
+    margin-right: 60px;
+    border-right: 1px solid #888888;
+}
+
+.result-found {
+    margin: auto;
+    padding: 15px;
+    font-size: small;
+    color: #888888;
+}
+
+.darker {
+    font-weight: bold;
+}
+
+.result-card {
+    display: flex;
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.part-1 {
+    flex: 1;
+}
+
+.part-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.part-2 {
+    flex: 3;
+    margin-left: 20px;
+}
+
+.result-title {
+    font-size: revert;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.plus-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-plus-square {
+    font-size: x-large;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.meter-cont {
+    display: block;
+    font-size: revert;
+    color: #D35266;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.card-caption-1 {
+    font-size: small;
+    color: #888888;
+}
+
+.card-caption-2 {
+    font-size: revert;
+    color: gray;
+}
+
+.darker-1 {
+    color: #383838;
+    font-weight: 700;
+}
+
+.card-date-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.res-date {
+    font-size: small;
+    color: grey;
+}
+
+.res-price {
+    display: block;
+    background-color: #D35266;
+    color: white;
+    font-size: revert;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.num-pages {
+    text-align: center;
+    margin: 15px;
+}
+
+.num-item {
+    display: inline-block;
+    border: 1px solid #888888;
+    padding: 0 5px;
+    margin: 3px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.num-item1 {
+    background-color: #D35266;
+    color: white;
+}
+
+.num-item2 {
+    font-weight: 600;
 }
