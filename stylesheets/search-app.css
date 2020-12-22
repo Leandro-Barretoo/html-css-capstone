@@ -31,7 +31,6 @@
 }
 
 .search-sec {
-    height: 190px;
     background-color: #D35266;
     text-align: left;
     color: white;
@@ -53,6 +52,8 @@
     display: flex;
     justify-content: left;
     margin-left: 80px;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .search-input {
@@ -258,4 +259,49 @@
     color: #888888;
     margin: 5px;
     text-align: center;
+}
+
+@media (max-width: 425px) {
+    .search-btn {
+        display: none;
+    }
+
+    .no-small {
+        display: none;
+    }
+
+    .navigation-item {
+        display: none;
+    }
+
+    .nav-logo {
+        display: inline-block;
+    }
+
+    .fa-bars {
+        display: inline-block;
+        color: #D35266;
+        font-size: x-large;
+    }
+
+    .search-input {
+        border: none;
+        padding: 5px;
+    }
+
+    .search-btn {
+        background-color: white;
+        color: #888888;
+        padding: 5px;
+        font-weight: 700;
+        margin-left: 1px;
+    }
+    
+    .hot-ads-sec {
+        display: none;
+    }
+
+    .categories-navi {
+        display: none;
+    }
 }

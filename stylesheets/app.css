@@ -78,6 +78,44 @@
 
 .hot-item-title {
     color: #D35266;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.lighter {
+    color: #888888;
+    margin: auto;
+}
+
+.darker {
+    font-weight: bold;
+    color: #383838;
+}
+
+.loc2 {
+    margin-bottom: 10px;
+}
+
+.hot-ad-btn {
+    background-color: #D35266;
+    color: white;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+.btn-hot1 {
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.btn-hot2 {
+    display: inline-block;
+    padding: 10px 25px;
+    border-left: 1px solid #a92b3f;
+}
+
+.fa-shopping-cart {
+    margin-right: 5px;
 }
 
 .box-container {
