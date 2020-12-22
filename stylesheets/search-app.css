@@ -23,7 +23,7 @@
 }
 
 .nav-home {
-    color: #D35266;
+    color: #d35266;
 }
 
 .fa-bars {
@@ -31,7 +31,7 @@
 }
 
 .search-sec {
-    background-color: #D35266;
+    background-color: #d35266;
     text-align: left;
     color: white;
     font-family: GothamPro, cursive;
@@ -64,7 +64,7 @@
 
 .search-btn {
     background-color: white;
-    color: #888888;
+    color: #888;
     padding: 10px;
     font-weight: 700;
     margin-left: 1px;
@@ -72,7 +72,7 @@
 
 .search-btn-1 {
     background-color: #383838;
-    color: #888888;
+    color: #888;
     padding: 10px;
     font-weight: 700;
     margin-left: 15px;
@@ -86,7 +86,7 @@
 .type-select {
     padding: 30px;
     flex: 1;
-    border-right: 1px solid #888888;
+    border-right: 1px solid #888;
 }
 
 .type-item {
@@ -102,14 +102,14 @@
 .results-select {
     flex: 6;
     margin-right: 60px;
-    border-right: 1px solid #888888;
+    border-right: 1px solid #888;
 }
 
 .result-found {
     margin: auto;
     padding: 15px;
     font-size: small;
-    color: #888888;
+    color: #888;
 }
 
 .darker {
@@ -118,8 +118,8 @@
 
 .result-card {
     display: flex;
-    border-top: 1px solid #888888;
-    border-bottom: 1px solid #888888;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
     margin-bottom: 10px;
     padding: 15px;
 }
@@ -159,14 +159,14 @@
 .meter-cont {
     display: block;
     font-size: revert;
-    color: #D35266;
+    color: #d35266;
     font-weight: bold;
     margin: 5px 0;
 }
 
 .card-caption-1 {
     font-size: small;
-    color: #888888;
+    color: #888;
 }
 
 .card-caption-2 {
@@ -191,7 +191,7 @@
 
 .res-price {
     display: block;
-    background-color: #D35266;
+    background-color: #d35266;
     color: white;
     font-size: revert;
     padding: 7px;
@@ -206,7 +206,7 @@
 
 .num-item {
     display: inline-block;
-    border: 1px solid #888888;
+    border: 1px solid #888;
     padding: 0 5px;
     margin: 3px;
     background-color: white;
@@ -215,7 +215,7 @@
 }
 
 .num-item1 {
-    background-color: #D35266;
+    background-color: #d35266;
     color: white;
 }
 
@@ -246,17 +246,18 @@
 
 .categ-foot-title {
     font-size: revert;
-    color: #D35266;
+    color: #d35266;
     font-weight: 600;
-    border-bottom: 2px solid #D35266;
+    border-bottom: 2px solid #d35266;
     margin-right: 20px;
 }
 
 .categ-foot-list {
-    color: #888888;
+    color: #888;
 }
+
 .copyright-sec {
-    color: #888888;
+    color: #888;
     margin: 5px;
     text-align: center;
 }
@@ -280,7 +281,7 @@
 
     .fa-bars {
         display: inline-block;
-        color: #D35266;
+        color: #d35266;
         font-size: x-large;
     }
 
@@ -291,12 +292,12 @@
 
     .search-btn {
         background-color: white;
-        color: #888888;
+        color: #888;
         padding: 5px;
         font-weight: 700;
         margin-left: 1px;
     }
-    
+
     .hot-ads-sec {
         display: none;
     }

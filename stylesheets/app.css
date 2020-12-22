@@ -19,11 +19,10 @@
 .nav-logo {
     font-size: xx-large;
     font-family: 'Pacifico', cursive;
-
 }
 
 .nav-home {
-    color: #D35266;
+    color: #d35266;
 }
 
 .fa-bars {
@@ -32,7 +31,7 @@
 
 .search-sec {
     height: 400px;
-    background-color: #D35266;
+    background-color: #d35266;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -59,7 +58,7 @@
 
 .search-btn {
     background-color: white;
-    color: #888888;
+    color: #888;
     padding: 5px;
     font-weight: 700;
     margin-left: 1px;
@@ -72,18 +71,18 @@
 .ads-title {
     margin: auto;
     font-size: 21px;
-    color: #888888;
+    color: #888;
     padding-left: 27px;
 }
 
 .hot-item-title {
-    color: #D35266;
+    color: #d35266;
     margin: auto;
     margin-bottom: 10px;
 }
 
 .lighter {
-    color: #888888;
+    color: #888;
     margin: auto;
 }
 
@@ -97,7 +96,7 @@
 }
 
 .hot-ad-btn {
-    background-color: #D35266;
+    background-color: #d35266;
     color: white;
     width: fit-content;
     border-radius: 6px;
@@ -139,8 +138,8 @@
 
 .items-container {
     background-color: #e0e4e3;
-    border-top: 1px solid #888888;
-    border-bottom: 1px solid #888888;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
     padding: 50px;
 }
 
@@ -151,14 +150,14 @@
 
 .coin-cont {
     padding: 13px;
-    border: 1px solid #888888;
+    border: 1px solid #888;
     border-radius: 3px;
     background-color: white;
     margin-bottom: 15px;
 }
 
 .item-title {
-    color: #D35266;
+    color: #d35266;
     font-weight: 700;
     font-size: medium;
 }
@@ -167,7 +166,7 @@
     display: flex;
     justify-content: space-between;
     font-size: x-large;
-    color: #D35266;
+    color: #d35266;
 }
 
 .foot-cont {
@@ -193,24 +192,23 @@
 
 .categ-foot-title {
     font-size: revert;
-    color: #D35266;
+    color: #d35266;
     font-weight: 600;
-    border-bottom: 2px solid #D35266;
+    border-bottom: 2px solid #d35266;
     margin-right: 20px;
 }
 
 .categ-foot-list {
-    color: #888888;
+    color: #888;
 }
+
 .copyright-sec {
-    color: #888888;
+    color: #888;
     margin: 5px;
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    
-}
+@media (max-width: 768px) {}
 
 @media (max-width: 425px) {
     .navigation-item {
@@ -223,7 +221,7 @@
 
     .fa-bars {
         display: inline-block;
-        color: #D35266;
+        color: #d35266;
         font-size: x-large;
     }
 
@@ -234,12 +232,12 @@
 
     .search-btn {
         background-color: white;
-        color: #888888;
+        color: #888;
         padding: 5px;
         font-weight: 700;
         margin-left: 1px;
     }
-    
+
     .hot-ads-sec {
         display: none;
     }
