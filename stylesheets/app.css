@@ -98,7 +98,7 @@
 .hot-ad-btn {
     background-color: #d35266;
     color: white;
-    width: fit-content;
+    width: max-content;
     border-radius: 6px;
 }
 
