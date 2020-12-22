@@ -191,7 +191,7 @@
 }
 
 .categ-foot-title {
-    font-size: revert;
+    font-size: inherit;
     color: #d35266;
     font-weight: 600;
     border-bottom: 2px solid #d35266;
@@ -207,8 +207,6 @@
     margin: 5px;
     text-align: center;
 }
-
-@media (max-width: 768px) {}
 
 @media (max-width: 425px) {
     .navigation-item {

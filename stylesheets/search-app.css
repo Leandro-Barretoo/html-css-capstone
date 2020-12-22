@@ -19,7 +19,6 @@
 .nav-logo {
     font-size: xx-large;
     font-family: 'Pacifico', cursive;
-
 }
 
 .nav-home {
@@ -49,7 +48,6 @@
 }
 
 .search-sec-input {
-    display: flex;
     justify-content: left;
     margin-left: 80px;
     display: inline-block;
@@ -139,7 +137,7 @@
 }
 
 .result-title {
-    font-size: revert;
+    font-size: inherit;
     font-weight: 600;
     margin-top: auto;
     margin-bottom: auto;
@@ -158,7 +156,7 @@
 
 .meter-cont {
     display: block;
-    font-size: revert;
+    font-size: inherit;
     color: #d35266;
     font-weight: bold;
     margin: 5px 0;
@@ -170,7 +168,7 @@
 }
 
 .card-caption-2 {
-    font-size: revert;
+    font-size: inherit;
     color: gray;
 }
 
@@ -193,7 +191,7 @@
     display: block;
     background-color: #d35266;
     color: white;
-    font-size: revert;
+    font-size: inherit;
     padding: 7px;
     font-weight: bold;
     border-radius: 3px;
@@ -245,7 +243,7 @@
 }
 
 .categ-foot-title {
-    font-size: revert;
+    font-size: inherit;
     color: #d35266;
     font-weight: 600;
     border-bottom: 2px solid #d35266;
@@ -263,10 +261,6 @@
 }
 
 @media (max-width: 425px) {
-    .search-btn {
-        display: none;
-    }
-
     .no-small {
         display: none;
     }
@@ -291,6 +285,7 @@
     }
 
     .search-btn {
+        display: none;
         background-color: white;
         color: #888;
         padding: 5px;
