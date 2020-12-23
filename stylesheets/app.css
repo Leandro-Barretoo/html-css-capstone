@@ -117,6 +117,11 @@
     margin-right: 5px;
 }
 
+.separators {
+    width: 98%;
+    border-top: 1px solid #888;
+}
+
 .box-container {
     display: flex;
 }
