@@ -12,9 +12,7 @@ I had an example design made by Mohammed Awad that I could follow and guide me t
 
 ## Live Demo
 
-```sh
 Live demo [here](https://leandro-barretoo.github.io/html-css-capstone/)
-```
 
 ## Authors
 
