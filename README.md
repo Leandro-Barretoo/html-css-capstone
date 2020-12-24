@@ -2,8 +2,6 @@
 
 > Final Project of HTML and CSS Module.
 
-![image](./capstone-project.png)
-
 > In this final project it was asked to combine all knowledge about semantic HTML tags, box model, industry-standard tools like flexbox to place elements and media queries to make an online shop with responsive design and proper UX.
 I had an example design made by Mohammed Awad that I could follow and guide me through the project.
 
