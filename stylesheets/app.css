@@ -227,7 +227,8 @@ a {
 }
 
 @media (max-width: 768px) {
-    .navigation-item {
+
+    .no-small {
         display: none;
     }
 
@@ -255,15 +256,7 @@ a {
         text-decoration: none;
     }
 
-    .hot-ads-sec {
-        display: none;
-    }
-
     .coin-cont {
         width: auto;
-    }
-
-    .categories-navi {
-        display: none;
     }
 }
