@@ -11,6 +11,10 @@
     padding: 7px;
 }
 
+a {
+    color: #888;
+}
+
 .navigation-item {
     color: white;
     font-size: 12px;
@@ -59,11 +63,12 @@
 }
 
 .search-btn {
-    background-color: #888;
+    background-color: #383838;
     color: white;
     padding: 10px;
     font-weight: 700;
     margin-left: 2px;
+    text-decoration: none;
 }
 
 .hot-ads-sec {
@@ -242,11 +247,12 @@
     }
 
     .search-btn {
-        background-color: #888;
+        background-color: #383838;
         color: white;
         padding: 10px;
         font-weight: 700;
         margin-left: 2px;
+        text-decoration: none;
     }
 
     .hot-ads-sec {
