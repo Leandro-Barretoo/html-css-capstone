@@ -131,12 +131,7 @@
     height: auto;
 }
 
-.box-item-1 {
-    flex: 1;
-    padding: 27px;
-}
-
-.box-item-2 {
+.box-item {
     flex: 1;
     padding: 27px;
 }
