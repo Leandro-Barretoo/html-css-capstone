@@ -264,7 +264,6 @@ a {
 }
 
 @media (max-width: 768px) {
-
     .result-card {
         flex-direction: column;
     }

@@ -227,7 +227,6 @@ a {
 }
 
 @media (max-width: 768px) {
-
     .no-small {
         display: none;
     }
