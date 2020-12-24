@@ -53,6 +53,7 @@
 }
 
 .search-input {
+    width: 20%;
     border: none;
     padding: 10px;
 }
@@ -258,6 +259,21 @@
     text-align: center;
 }
 
+@media (max-width: 768px) {
+
+    .result-card {
+        flex-direction: column;
+    }
+
+    .part-1 {
+        margin-bottom: 10px;
+    }
+
+    .part-2 {
+        margin: auto;
+    }
+}
+
 @media (max-width: 425px) {
     .navigation-item {
         display: none;
@@ -275,6 +291,7 @@
 
     .search-input {
         display: inline-block;
+        width: auto;
         border: none;
         padding: 10px;
     }
