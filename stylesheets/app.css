@@ -142,7 +142,11 @@
     background-color: #e0e4e3;
     border-top: 1px solid #888;
     border-bottom: 1px solid #888;
-    padding: 50px;
+    padding: 40px;
+}
+
+.row {
+    margin: auto;
 }
 
 .coin-pics {
@@ -151,11 +155,12 @@
 }
 
 .coin-cont {
-    padding: 13px;
+    padding: 9px;
     border: 1px solid #888;
     border-radius: 3px;
     background-color: white;
-    margin-bottom: 15px;
+    margin: 10px;
+    width: 22%;
 }
 
 .item-title {
