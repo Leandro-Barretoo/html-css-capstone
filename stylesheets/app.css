@@ -215,7 +215,13 @@
     text-align: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 1024px) {
+    .coin-cont {
+        width: 47%;
+    }
+}
+
+@media (max-width: 768px) {
     .navigation-item {
         display: none;
     }
@@ -236,15 +242,19 @@
     }
 
     .search-btn {
-        background-color: white;
-        color: #888;
-        padding: 5px;
+        background-color: #888;
+        color: white;
+        padding: 10px;
         font-weight: 700;
-        margin-left: 1px;
+        margin-left: 2px;
     }
 
     .hot-ads-sec {
         display: none;
+    }
+
+    .coin-cont {
+        width: auto;
     }
 
     .categories-navi {
