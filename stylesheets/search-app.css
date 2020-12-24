@@ -296,6 +296,28 @@
         display: none;
     }
 
+    .type-select {
+        display: none;
+    }
+
+    .results-select {
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+
+    .result-card {
+        flex-direction: column;
+    }
+
+    .part-1 {
+        margin-bottom: 10px;
+    }
+
+    .part-2 {
+        margin: auto;
+    }
+
     .categories-navi {
         display: none;
     }
