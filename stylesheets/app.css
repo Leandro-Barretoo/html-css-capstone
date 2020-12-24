@@ -49,19 +49,21 @@
 .search-sec-input {
     display: flex;
     justify-content: center;
+    height: 10%;
 }
 
 .search-input {
     border: none;
     padding: 5px;
+    width: 60%;
 }
 
 .search-btn {
-    background-color: white;
-    color: #888;
-    padding: 5px;
+    background-color: #888;
+    color: white;
+    padding: 10px;
     font-weight: 700;
-    margin-left: 1px;
+    margin-left: 2px;
 }
 
 .hot-ads-sec {
